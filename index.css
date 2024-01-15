@@ -1,0 +1,443 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica'; /* Replace 'YourFontFamily' with the font you have */
+    background-color: #EEEFF0;
+}
+
+header {
+    background-color: #121112;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 75px; /* Расстояние между элементами списка */
+}
+
+header nav ul li {
+    margin: 0; /* Убираем дополнительный отступ */
+}
+
+header nav ul li a {
+    color: #8B8E92; /* Цвет текста */
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.7px;
+}
+
+
+
+
+.content {
+    background: 
+        linear-gradient(270deg, rgba(0, 0, 0, 0.60) 34.64%, rgba(0, 0, 0, 0.00) 108.46%),
+        url('Rectangle\ 65.png');
+    background-size: cover;
+    background-position: center;
+    height: 580px; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px; /* Отступ справа для текста */
+}
+
+.text-block {
+    margin: 0px;
+    padding: 0px;
+    max-width: 500px;
+    margin-bottom: 80px
+}
+
+.text-block h1 {
+    color: #FBF8F5;
+    font-family: Helvetica, sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -0.933px;
+    margin: 0;
+}
+
+.text-block p {
+    color: #FBF8F5;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.7px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    width: 71%;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px; /* Расстояние между кнопками */
+    margin-top: 20px;
+}
+
+.btn {
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    height: 52px;
+    padding: 0 20px;
+}
+
+.btn-orange {
+    background-color: #F44C17;
+    color: #121112;
+}
+
+.btn-black {
+    background-color: #121112;
+    color: #F44C17;
+}
+
+
+
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+  }
+  .profile-summary p {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px; /* 132.143% */
+    letter-spacing: -0.7px;
+  }
+
+  .profile-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 116px;
+    flex: 1;
+  }
+
+  .stat-item-profile {
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    align-items: center;
+  }
+
+
+
+  .statistics {
+    display: flex;
+    flex-direction: column; /* Статистика будет располагаться в колонку */
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1; /* Занимает доступное пространство */
+  }
+  .stat-item {
+    text-align: center;
+    margin: 20px;
+  }
+  .stat-item h2, .stat-item-profile h2 {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.933px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+  }
+  .stat-item p, .stat-item-profile p {
+    color: #8B8E92;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.7px;
+    text-align: left;
+    width: 350px;
+  }
+
+
+
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: calc(400px * 3 + 20px * 2); /* Width of 3 images plus the gap */
+  }
+  
+  .photo {
+    width: 400px;
+    height: 360px;
+    border-radius: 4px;
+    background-color: #ccc; 
+    transition: transform 0.5s, height 0.5s ease;
+  }
+  
+  .photo.hidden {
+    transform: scaleY(0);
+    height: 0; /* Override height when hidden */
+    transition: transform 0.5s, height 0.5s ease; /* Smooth transformation for animation */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; /* This will center the button */
+  }
+  
+  .button {
+    width: 146px;
+    height: 52px;
+    background-color: #F44C17;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #121112;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.7px;
+    justify-content: center; /* Align text inside the button */
+    align-items: center; /* Align text inside the button */
+  }
+  
+
+
+
+
+
+  .services-container {
+    padding: 60px;
+    text-align: center;
+}
+
+.services-title {
+    margin-bottom: 65px;
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.933px;
+    text-align: left;
+    width: 300px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.service-item {
+    flex-basis: calc(20% - 10px); /* Adjust the width for each item */
+    text-align: left;
+}
+
+.service-number {
+    color: #121112;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.933px;
+    display: inline-block;
+    position: relative; /* This is needed to position the pseudo-element */
+    margin-bottom: 5px; /* Adjust as needed */
+}
+
+.service-number::after {
+    content: '';
+    display: block;
+    width: 190px; /* Width of the 'border' */
+    height: 6px; /* Height of the 'border' */
+    background-color: #F44C17; /* Color of the 'border' */
+    position: absolute;
+    bottom: -10px; /* Adjust as needed */
+    left: 0;
+}
+
+
+.service-title {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.7px;
+    margin-top: 20px;
+}
+
+.service-description {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.7px;
+    width: 190px;
+}
+
+
+
+
+
+.video-placeholder {
+    width: 1240px;
+    height: 586px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.10);
+    backdrop-filter: blur(2px);
+    /* Center the placeholder in the container, you may adjust the values or remove if not needed */
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: style for the play button icon, if you wish to include a visual cue for video */
+.video-placeholder::after {
+    content: '▶'; /* Unicode character for a play button */
+    font-size: 50px;
+    color: white;
+    opacity: 0.7;
+}
+
+
+
+
+
+.contact-container {
+    display: flex;
+    width: 85%;
+    min-height: 431px; /* Changed to min-height to allow for expansion */
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #E5E5E5;
+    justify-content: space-around;
+    align-items: flex-start; /* Align items to the top */
+    margin: auto;
+}
+
+.contact-text {
+    max-width: 30%; /* Adjust as necessary */
+}
+/* .contact-text {
+    margin-right: 92px; 
+} */
+.contact-text h2 {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 102.778% */
+    letter-spacing: -0.933px;
+    margin-bottom: 18px;
+}
+
+.contact-text p {
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    letter-spacing: -0.7px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align form items to the left */
+}
+
+.contact-form input[type="text"],
+.contact-form select {
+    width: 630px; /* Adjust if necessary to match design */
+    height: 51px;
+    margin-bottom: 20px;
+    border: 1px solid #7B7780;
+    border-radius: 4px;
+    padding: 15px; /* Add padding to match the design */
+}
+
+.contact-form .form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form .form-row input[type="text"] {
+    width: calc(50% - 5px); /* Adjust for gap */
+}
+
+.contact-form button {
+    width: 134px;
+    height: 52px;
+    background-color: #121112;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #F44C17;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.7px;
+}
