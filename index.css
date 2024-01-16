@@ -376,9 +376,7 @@ header nav ul li a {
 .contact-text {
     max-width: 30%; /* Adjust as necessary */
 }
-/* .contact-text {
-    margin-right: 92px; 
-} */
+
 .contact-text h2 {
     color: #121112;
     font-family: Helvetica;
@@ -441,3 +439,98 @@ header nav ul li a {
     line-height: 22px;
     letter-spacing: -0.7px;
 }
+
+
+
+
+
+.footer {
+    padding: 50px 100px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  .branding .max-quality {
+    color: #121112;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.505px;
+    text-transform: lowercase;
+  }
+  
+  .branding .tagline {
+    color: #7B7780;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.933px;
+    width: 127px;
+    }
+    
+    .social-icons {
+    /* Укажите здесь стили для иконок, если это необходимо */
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 44px;
+    }
+    
+    .contact .get-in-touch {
+    color: #121112;
+    text-align: right;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.933px;
+    }
+    
+    .contact-button {
+    width: 173px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #F44C17;
+    border: none;
+    cursor: pointer;
+    color: #121112;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.933px;
+    }
+    
+    /* Адаптивность для мобильных устройств */
+    @media (max-width: 768px) {
+    .container {
+    flex-direction: column;
+    text-align: center;
+    }
+    
+    .branding, .contact {
+    margin-bottom: 20px;
+    }
+    
+    .social-icons img {
+    margin: 0 10px; /* Отступы между иконками */
+    }
+    }
+  
