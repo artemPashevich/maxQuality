@@ -1,0 +1,148 @@
+// scss code start
+
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+// scss code end
+
+
+
+// temp code start
+
+section {
+	border:  purple 2px solid;
+}
+
+// temp code end
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 127.273% */
+  letter-spacing: -0.7px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 74px;
+  line-height: 76px;
+  letter-spacing: 0px;
+}
+h2 {
+  font-size: 72px;
+  line-height: 74px;
+}
+h3 {
+  font-size: 48px;
+  line-height: 54px;
+}
+h4 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.b1,
+.b2,
+.b3 {
+  font-weight: bold;
+}
+.b4,
+.b5 {
+  font-weight: normal;
+}
+.b1 {
+  font-size: 160px;
+  line-height: 165px;
+}
+.b2 {
+  font-size: 96px;
+  line-height: 80px;
+}
+.b3 {
+  font-size: 28px;
+  line-height: 37px;
+}
+.b4 {
+  font-size: 22px;
+  line-height: 28px;
+}
+.b5 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+button {
+  background-color: $orange;
+  padding: 15px 33px;
+  color: $black;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 122.222% */
+  border-radius: 4px;
+  &:hover {
+    font-weight: 700;
+  }
+  &:active {
+    color: $orange;
+    background-color: $black;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 390px) {
+    max-width: 358px;
+  }
+  @media (min-width: 576px) {
+    max-width: 358px;
+  }
+  @media (min-width: 768px) {
+    max-width: 736px;
+  }
+  @media (min-width: 992px) {
+    max-width: 736px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1440px) {
+    max-width: 1240px;
+  }
+	
+}
+
+// ul li {
+//     width: 63px;
+//     height: 40px;
+//     justify-content: center;
+//     align-items: center;
+//     display: flex; // Для правильной работы justify-content и align-items
+//     transition: all 0.3s ease; // Плавный переход для эффекта hover
+
+//     a {
+//       text-decoration: none; // Убираем подчеркивание у ссылок
+//       color: currentColor; // Используем текущий цвет текста
+//       display: block; // Для корректного заполнения всей области li
+//     }
+
+//     &:hover {
+//       background-color: $orange;
+//       transform: translateY(-5px); // Поднимаем на 5px
+//     }
+//   }

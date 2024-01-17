@@ -1,0 +1,78 @@
+.about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.about .sub-container {
+  padding-right: 74px;
+}
+.about .block-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about .block-element-1 {
+  width: 514px;
+}
+.about .block-element-2 {
+  width: 379px;
+}
+.about .block-element-3 {
+  width: 514px;
+  margin-top: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.about .block-element-3 .b4 {
+  width: 257px;
+  color: #121112;
+}
+.about .block-element-4 {
+  margin-top: 61px;
+  width: 336px;
+  margin-right: 43px;
+}
+.about .b4 {
+  margin-top: 32px;
+  color: #8b8e92;
+}
+
+h2 {
+  padding-bottom: 50px;
+  width: 200px;
+}
+
+.services .services-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.services .service-box {
+  width: 190px;
+}
+.services .service-box .service-number {
+  color: #121112;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -0.933px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 27px;
+}
+.services .service-box .service-number::after {
+  content: "";
+  display: block;
+  width: 190px;
+  height: 6px;
+  background-color: #f44c17;
+  position: absolute;
+  bottom: -10px;
+}
+.services .service-box h4 {
+  padding-bottom: 23px;
+  padding-top: 10px;
+}/*# sourceMappingURL=style.css.map */

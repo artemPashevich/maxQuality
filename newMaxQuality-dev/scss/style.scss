@@ -1,0 +1,116 @@
+// scss code start
+
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+// scss code end
+
+
+// header start
+// header end
+// welcome section start
+// welcome section end
+
+// about section start
+
+.about {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	.sub-container {
+		padding-right: 74px;
+	}
+
+	.block-group {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.block-element-1 {
+		width: 514px;
+	}
+	.block-element-2 {
+		width: 379px;
+	}
+	.block-element-3 {
+		width: 514px;
+		margin-top: 4px;
+		display: flex;
+    	flex-direction: row;
+    	align-items: center;
+    	gap: 30px;
+		.b4 {
+			width: 257px;
+			color: $black;
+		}
+	}
+	.block-element-4 {
+		margin-top: 61px;
+		width: 336px;
+		margin-right: 43px;
+	}
+	.b4 {
+		margin-top: 32px;
+		color: $gray;
+	}
+}
+
+// about section end
+
+// works section start
+// works section end
+// services section start
+
+h2 {
+	padding-bottom: 50px;
+	width: 200px;
+}
+
+.services {
+	.services-list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+  	}
+  	.service-box {
+		width: 190px;
+
+		.service-number {
+			color: $black;
+			font-family: Helvetica, Arial, sans-serif;
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 80px;
+			letter-spacing: -0.933px;
+			display: inline-block;
+			position: relative;
+			margin-bottom: 27px;
+	   }
+		  .service-number::after {
+			content: '';
+			display: block;
+			width: 190px;
+			height: 6px;
+			background-color: $orange;
+			position: absolute;
+			bottom: -10px;
+		}
+
+		h4 {
+			padding-bottom: 23px;
+			padding-top: 10px;
+		}
+
+  	}
+
+}
+// services section end
+// video section start
+// video section end
+// contacts section start
+// contacts section end
+// footer section start
+// footer section end
