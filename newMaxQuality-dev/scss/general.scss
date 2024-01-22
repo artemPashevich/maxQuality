@@ -11,10 +11,6 @@ $gray: #8b8e92; // Средне-серый цвет
 
 // temp code start
 
-section {
-	border:  purple 2px solid;
-}
-
 // temp code end
 
 body {
@@ -24,6 +20,7 @@ body {
   font-weight: 400;
   line-height: 28px; /* 127.273% */
   letter-spacing: -0.7px;
+  background-color: $white;
 }
 
 h1,
@@ -127,22 +124,5 @@ button {
 	
 }
 
-// ul li {
-//     width: 63px;
-//     height: 40px;
-//     justify-content: center;
-//     align-items: center;
-//     display: flex; // Для правильной работы justify-content и align-items
-//     transition: all 0.3s ease; // Плавный переход для эффекта hover
 
-//     a {
-//       text-decoration: none; // Убираем подчеркивание у ссылок
-//       color: currentColor; // Используем текущий цвет текста
-//       display: block; // Для корректного заполнения всей области li
-//     }
 
-//     &:hover {
-//       background-color: $orange;
-//       transform: translateY(-5px); // Поднимаем на 5px
-//     }
-//   }

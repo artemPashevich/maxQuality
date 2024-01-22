@@ -12,8 +12,35 @@
 
 <body>
     <div class="root">
-        <header>header</header>
-        <section class="welcome">welcome</section>
+
+
+        <header>
+            <div class="container">
+                <div class="logo">Logo</div>
+                <nav>
+                    <ul>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#works">Works</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <section class="welcome">
+            <div class="container"> 
+                <h1> Home repair Services</h1>
+                <div class="b4"> More than 15 years of experience in repair work execution.
+                     Get in touch and transform your home </div>
+                <div class="button-box">
+                    <button>Get in Touch</button>
+                    <button class="black-button">Call Now</button>
+                </div>
+            </div>
+        </section>
+
+
         <section class="about">
             <div class="container">
                 <div class="sub-container">
@@ -50,7 +77,29 @@
                 </div>
             </div>
         </section>
-        <section class="works">works</section>
+
+
+        <section class="works">
+            <div class="container">
+                <div class="gallery" id="gallery">
+                    <!-- Initially visible photos -->
+                    <div class="photo"> <img src="src/IMG_1347.JPG"> </div>
+                    <div class="photo"> <img src="src/IMG_1567.jpg"> </div>
+                    <div class="photo"> <img src="src/IMG_9225.JPG"> </div>
+                    <!-- Initially hidden photos -->
+                    <div class="photo hidden"></div>
+                    <div class="photo hidden"></div>
+                    <div class="photo hidden"></div>
+                    <div class="photo hidden"></div>
+                  </div>
+                </div>
+                
+                <div class="button-container">
+                  <button id="toggleButton">View More</button>
+                </div>
+            </div>
+        </section>
+
 
         <section class="services">
             <div class="container">
@@ -89,6 +138,9 @@
         <section class="contacts">contacts</section>
         <footer>footer</footer>
     </div>
+
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
