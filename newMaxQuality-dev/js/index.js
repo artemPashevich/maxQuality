@@ -31,3 +31,30 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+// video start 
+
+document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById('myVideo');
+    video.muted = true;
+    var options = {
+      root: null, // отслеживаем видимость относительно вьюпорта
+      rootMargin: '0px',
+      threshold: 0.5 // видео начнет воспроизводиться, когда 50% элемента видно
+    };
+  
+    var observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }, options);
+  
+    observer.observe(video);
+  });
+  
+// video end 

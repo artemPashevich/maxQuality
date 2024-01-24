@@ -62,7 +62,7 @@ header {
     align-items: center;
 	background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0.60) 34.64%, rgba(0, 0, 0, 0.00) 108.46%),
-        url('../src/main.png');
+        url('../src/shutterstock_1473892670.jpg');
     background-size: cover;
     background-position: center;
     height: 580px; 
@@ -94,9 +94,6 @@ header {
 						background-color: $orange;
 					}
 				}
-
-				
-				
 			}
 		}
 }
@@ -246,9 +243,88 @@ h2 {
 
 }
 // services section end
+
+
 // video section start
+.video {
+	margin: 100px 0px;
+	.container {
+		display: flex;
+    	align-items: center;
+    	flex-direction: column;
+
+		video {
+			height: 586px;
+		}
+	}
+}
 // video section end
+
+
 // contacts section start
 // contacts section end
+
+
 // footer section start
+footer {
+	background-color: #E5E5E5;
+	height: 154px;
+
+  .container {
+
+	height: 100%;
+
+	.pre-container {
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+
+		.branding {
+
+			.max-quality {
+				color: $black;
+				font-family: Poppins;
+				font-size: 16px;
+				letter-spacing: -0.505px;
+				font-weight: 700;
+				margin-bottom: 12px;
+			}
+
+			.tagline {
+				color: #7B7780;
+				font-family: Helvetica;
+				font-size: 14px;
+				letter-spacing: -0.933px;
+				width: 148px;
+				line-height: 18px;
+			}
+		}
+
+		.social-icons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 20px;
+		}
+
+		.contact {
+			display: flex;
+    		flex-direction: row;
+    		align-items: center;
+    		gap: 44px;
+
+			.get-in-touch {
+				color: $black;
+				font-family: Helvetica;
+				font-size: 40px;
+				letter-spacing: -0.933px;
+			}
+		}
+	}
+  }
+	
+}
 // footer section end

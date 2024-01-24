@@ -36,7 +36,7 @@ header .container ul li:hover {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 34.64%, rgba(0, 0, 0, 0) 108.46%), url("../src/main.png");
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 34.64%, rgba(0, 0, 0, 0) 108.46%), url("../src/shutterstock_1473892670.jpg");
   background-size: cover;
   background-position: center;
   height: 580px;
@@ -180,4 +180,65 @@ h2 {
 .services .service-box h4 {
   padding-bottom: 23px;
   padding-top: 10px;
+}
+
+.video {
+  margin: 100px 0px;
+}
+.video .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.video .container video {
+  height: 586px;
+}
+
+footer {
+  background-color: #E5E5E5;
+  height: 154px;
+}
+footer .container {
+  height: 100%;
+}
+footer .container .pre-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+footer .container .pre-container .branding .max-quality {
+  color: #121112;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: -0.505px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+footer .container .pre-container .branding .tagline {
+  color: #7B7780;
+  font-family: Helvetica;
+  font-size: 14px;
+  letter-spacing: -0.933px;
+  width: 148px;
+  line-height: 18px;
+}
+footer .container .pre-container .social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+footer .container .pre-container .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 44px;
+}
+footer .container .pre-container .contact .get-in-touch {
+  color: #121112;
+  font-family: Helvetica;
+  font-size: 40px;
+  letter-spacing: -0.933px;
 }/*# sourceMappingURL=style.css.map */
