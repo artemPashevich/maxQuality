@@ -1,0 +1,148 @@
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+
+// about section start
+
+.about {
+
+	.block-group {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.block-element-3 {
+		display: flex;
+    	flex-direction: row;
+    	align-items: center;
+		.b4 {
+			color: $black;
+		}
+	}
+	.b4 {
+		color: $gray;
+	}
+}
+
+// about section end
+
+
+@media (min-width: 1921px) {
+.about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about .sub-container {
+  padding-right: 90px;
+}
+.about .block-element-1 {
+  width: 684px;
+}
+.about .block-element-2 {
+  width: 505px;
+}
+.about .block-element-3 {
+  width: 684px;
+  margin-top: 4px;
+  gap: 28px;
+}
+.about .block-element-3 .b4 {
+  width: 434px;
+}
+.about .block-element-4 {
+  margin-top: 72px;
+  width: 434px;
+  margin-right: 63px;
+}
+.about .b4 {
+  margin-top: 32px;
+}
+}
+
+
+@media (max-width: 1920px)  {
+    .about {
+        margin-top: 100px;
+        margin-bottom: 100px;
+      }
+      .about .sub-container {
+        padding-right: 90px;
+      }
+      .about .block-element-1 {
+        width: 684px;
+      }
+      .about .block-element-2 {
+        width: 505px;
+      }
+      .about .block-element-3 {
+        width: 684px;
+        margin-top: 4px;
+        gap: 28px;
+      }
+      .about .block-element-3 .b4 {
+        width: 434px;
+      }
+      .about .block-element-4 {
+        margin-top: 72px;
+        width: 434px;
+        margin-right: 63px;
+      }
+      .about .b4 {
+        margin-top: 32px;
+      }
+}
+
+@media (max-width: 1440px) {
+    .about {
+        margin-top: 80px;
+        margin-bottom: 80px;
+      }
+      .about .sub-container {
+        padding-right: 74px;
+      }
+      .about .block-element-1 {
+        width: 514px;
+      }
+      .about .block-element-2 {
+        width: 379px;
+      }
+      .about .block-element-3 {
+        width: 514px;
+        margin-top: 4px;
+        gap: 30px;
+      }
+      .about .block-element-3 .b4 {
+        width: 257px;
+      }
+      .about .block-element-4 {
+        margin-top: 61px;
+        width: 336px;
+        margin-right: 43px;
+      }
+      .about .b4 {
+        margin-top: 32px;
+      }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (max-width: 390px) {
+
+}

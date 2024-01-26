@@ -1,0 +1,115 @@
+.welcome {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.6) 34.64%, rgba(0, 0, 0, 0) 108.46%), url("../src/shutterstock_1473892670.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.welcome h1 {
+  color: #FBF8F5;
+}
+.welcome .b4 {
+  color: #FBF8F5;
+}
+.welcome .button-box {
+  display: flex;
+}
+.welcome .button-box .black-button {
+  background-color: #121112;
+  color: #f44c17;
+}
+.welcome .button-box .black-button:active {
+  color: #121112;
+  background-color: #f44c17;
+}
+
+@media (min-width: 1921px) {
+  .welcome {
+    height: 701px;
+    max-width: 1921px;
+  }
+  .welcome .container {
+    max-width: 570px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .welcome h1 {
+    width: 570px;
+  }
+  .welcome .b4 {
+    width: 431px;
+    margin-top: 32px;
+  }
+  .welcome .button-box {
+    margin-top: 66px;
+    gap: 26px;
+  }
+}
+@media (max-width: 1920px) {
+  .welcome {
+    height: 701px;
+    max-width: 1921px;
+  }
+  .welcome .container {
+    max-width: 570px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .welcome h1 {
+    width: 570px;
+  }
+  .welcome .b4 {
+    width: 431px;
+    margin-top: 32px;
+  }
+  .welcome .button-box {
+    margin-top: 66px;
+    gap: 26px;
+  }
+}
+@media (max-width: 1440px) {
+  .welcome {
+    height: 582px;
+    max-width: 1440px;
+  }
+  .welcome .container {
+    max-width: 433px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .welcome h1 {
+    width: 433px;
+  }
+  .welcome .b4 {
+    width: 338px;
+    margin-top: 22px;
+  }
+  .welcome .button-box {
+    margin-top: 44px;
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .welcome {
+    height: 422px;
+    max-width: 768px;
+  }
+  .welcome .container {
+    max-width: 380px;
+    margin-right: 10%;
+    margin-bottom: 30px;
+  }
+  .welcome h1 {
+    width: 380px;
+  }
+  .welcome .b4 {
+    width: 280px;
+    margin-top: 22px;
+  }
+  .welcome .button-box {
+    margin-top: 36px;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=welcome.css.map */
