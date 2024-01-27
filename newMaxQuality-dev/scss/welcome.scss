@@ -5,7 +5,7 @@ $white: #eeeff0; // Светло-серый цвет
 $gray: #8b8e92; // Средне-серый цвет
 
 
-// welcome section start
+// welcome section start 
 
 .welcome {
 	display: flex; 
@@ -47,12 +47,12 @@ $gray: #8b8e92; // Средне-серый цвет
         max-width: 1921px;
       }
       .welcome .container {
-        max-width: 570px;
+        max-width: 578px;
         margin-right: 10%;
         margin-bottom: 30px;
       }
       .welcome h1 {
-        width: 570px;
+        width: 578px;
       }
       .welcome .b4 {
         width: 431px;
@@ -88,6 +88,29 @@ $gray: #8b8e92; // Средне-серый цвет
       }
 }
 
+@media (max-width: 1600px) {
+    .welcome {
+      height: 650px; 
+      max-width: 1600px;
+  }
+    .welcome .container {
+      max-width: 550px; 
+      margin-right: 10%;
+      margin-bottom: 30px;
+  }
+  .welcome h1 {
+      width: 550px; 
+  }
+  .welcome .b4 {
+      width: 400px; 
+      margin-top: 28px; 
+  }
+  .welcome .button-box {
+      margin-top: 50px; 
+      gap: 24px; 
+  }
+}
+
 @media (max-width: 1440px) {
     .welcome {
         height: 582px;
@@ -112,11 +135,49 @@ $gray: #8b8e92; // Средне-серый цвет
 }
 
 @media (max-width: 1200px) {
-
+  .welcome {
+    height: 600px; 
+    max-width: 1200px;
+}
+.welcome .container {
+  max-width: 386px;
+  margin-right: 10%;
+  margin-bottom: 45px;
+}
+.welcome h1 {
+    width: 386px;
+}
+.welcome .b4 {
+    width: 317px; 
+    margin-top: 20px; 
+}
+.welcome .button-box {
+    margin-top: 40px; 
+    gap: 18px; 
+}
 }
 
 @media (max-width: 992px) {
-
+  .welcome {
+    height: 500px; 
+    max-width: 992px; 
+}
+.welcome .container {
+  max-width: 350px;
+  margin-right: 10%;
+  margin-bottom: 68px;
+}
+.welcome h1 {
+    width: 390px; 
+}
+.welcome .b4 {
+    width: 280px; 
+    margin-top: 18px; 
+}
+.welcome .button-box {
+    margin-top: 30px; 
+    gap: 15px; 
+}
 }
 
 @media (max-width: 768px) {
@@ -125,19 +186,19 @@ $gray: #8b8e92; // Средне-серый цвет
         max-width: 768px;
       }
       .welcome .container {
-        max-width: 380px;
+        max-width: 320px;
         margin-right: 10%;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
       }
       .welcome h1 {
-        width: 380px;
+        width: 320px;
       }
       .welcome .b4 {
-        width: 280px;
+        width: 235px;
         margin-top: 22px;
       }
       .welcome .button-box {
-        margin-top: 36px;
+        margin-top: 30px;
         gap: 10px;
       }
 }
