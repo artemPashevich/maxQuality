@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .about .block-group {
   display: flex;
   justify-content: space-between;
@@ -213,5 +214,136 @@
   }
   .about .b4 {
     margin-top: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
+  .about .sub-container {
+    padding-right: 0px;
+  }
+  .about .block-element-1 {
+    order: 1;
+    width: 321px;
+    margin-bottom: 54px;
+  }
+  .about .block-element-2 {
+    order: 2;
+    width: 300.5px; /* Среднее значение между 270px и 331px */
+    margin-bottom: 63.5px; /* Среднее значение между 69px и 58px */
+  }
+  .about .block-element-2 .b2 {
+    width: 380px;
+  }
+  .about .block-element-3 {
+    order: 3;
+    width: 450px; /* Среднее значение между 240px и 600px */
+    margin-top: 0px;
+    gap: 26px; /* Среднее значение между 0px и 52px */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about .block-element-3 .b4 {
+    width: 270px;
+  }
+  .about .block-element-4 {
+    order: 2;
+    margin-top: 0px;
+    width: 270px;
+    margin-right: 0px;
+    margin-bottom: 58px;
+  }
+  .about .b4 {
+    margin-top: 28px;
+  }
+}
+@media (max-width: 576px) {
+  .about {
+    margin-top: 50px; /* Среднее значение между 48px и 52px */
+    margin-bottom: 50px;
+  }
+  .about .sub-container {
+    padding-right: 0px;
+  }
+  .about .block-element-1 {
+    order: 1;
+    width: 321px; /* Сохраняем, так как в обоих запросах одинаково */
+    margin-bottom: 51px; /* Среднее значение между 48px и 54px */
+  }
+  .about .block-element-2 {
+    order: 2;
+    width: 300px; /* Среднее значение между 270px и 331px */
+    margin-bottom: 63px; /* Среднее значение между 58px и 69px */
+  }
+  .about .block-element-2 .b2 {
+    width: 340px; /* Сохраняем, так как указано только для 390px */
+  }
+  .about .block-element-3 .b4 {
+    width: 270px; /* Сохраняем, так как в обоих запросах одинаково */
+  }
+  .about .block-element-4 {
+    order: 3;
+    margin-top: 0px;
+    width: 270px; /* Сохраняем, так как в обоих запросах одинаково */
+    margin-right: 0px;
+    margin-bottom: 58px; /* Сохраняем, так как указано только для 992px */
+  }
+  .about .block-element-3 {
+    display: flex;
+    order: 4;
+    width: 420px; /* Среднее значение между 240px и 600px */
+    margin-top: 0px;
+    gap: 26px; /* Среднее значение между 0px и 52px */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about .b4 {
+    margin-top: 25px; /* Среднее значение между 22px и 28px */
+  }
+}
+@media (max-width: 390px) {
+  .about {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .about .sub-container {
+    padding-right: 0px;
+  }
+  .about .block-element-1 {
+    order: 1;
+    width: 321px;
+    margin-bottom: 48px;
+  }
+  .about .block-element-2 {
+    order: 2;
+    width: 270px;
+    margin-bottom: 69px;
+  }
+  .about .block-element-2 .b2 {
+    width: 340px;
+  }
+  .about .block-element-3 .b4 {
+    width: 270px;
+  }
+  .about .block-element-4 {
+    order: 3;
+    margin-top: 0px;
+    width: 270px;
+    margin-right: 0px;
+    margin-bottom: 58px;
+  }
+  .about .block-element-3 {
+    display: flex;
+    order: 4;
+    width: 240px;
+    margin-top: 0px;
+    gap: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .about .b4 {
+    margin-top: 22px;
   }
 }/*# sourceMappingURL=about.css.map */

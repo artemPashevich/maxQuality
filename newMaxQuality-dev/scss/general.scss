@@ -26,43 +26,45 @@ body {
 
 @media (max-width: 390px) {
   button {
-    padding: 10px 25px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-
-  h1 {
-    font-size: 32px;
-    line-height: 36px;
-  }
-  h2 {
-    font-size: 28px;
-    line-height: 32px;
-  }
-  h3 {
-    font-size: 24px;
-    line-height: 28px;
-  }
-  h4 {
+    padding: 13px 30px;
     font-size: 18px;
     line-height: 22px;
   }
+
+  h1 {
+    font-size: 52px;
+    line-height: 50px;
+    letter-spacing: 0px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
   
   .b1 {
-    font-size: 56px;
-    line-height: 60px;
+    font-size: 86px;
+    line-height: 80px;
   }
   .b2 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 86px;
+    line-height: 80px;
   }
   .b3 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 23px;
   }
   .b4 {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
   }
 }
 @media (min-width: 390px) {
@@ -96,16 +98,15 @@ body {
     line-height: 80px;
   }
   .b2 {
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: normal;
+    font-size: 86px;
+    line-height: 80px;
   }
   .b3 {
     font-size: 18px;
     line-height: 23px;
   }
   .b4 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: normal;
   }
@@ -140,16 +141,17 @@ body {
     line-height: 85px;
   }
   .b2 {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 86px;
+    line-height: 80px;
   }
   .b3 {
     font-size: 18px;
     line-height: 22px;
   }
   .b4 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
   }
 }
 @media (min-width: 768px) {
@@ -194,8 +196,9 @@ body {
     line-height: 22px;
   }
   .b4 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
+    font-weight: normal;
   }
 }
 @media (min-width: 992px) {
@@ -437,8 +440,45 @@ body {
   margin-right: auto;
   margin-left: auto;
 
+  // @media (max-width: 390px) {
+  //     max-width: 358px;
+  // }
+  
+  // @media (max-width: 575px) {
+  //     max-width: 358px;
+  // }
+  
+  // @media (max-width: 767px) {
+  //     max-width: 443px;
+  // }
+  
+  // @media (max-width: 991px) {
+  //     max-width: 665px;
+  // }
+  
+  // @media (max-width: 1199px) {
+  //     max-width: 736px;
+  // }
+  
+  // @media (max-width: 1439px) {
+  //     max-width: 1140px;
+  // }
+  
+  // @media (max-width: 1599px) {
+  //     max-width: 1240px;
+  // }
+  
+  // @media (max-width: 1919px) {
+  //     max-width: 1420px;
+  // }
+  
+  // @media (max-width: 1920px) {
+  //     max-width: 1720px;
+  // }
+  
+
   @media (max-width: 390px) {
-    
+    max-width: 358px;
   }
   @media (min-width: 390px) {
     max-width: 358px;

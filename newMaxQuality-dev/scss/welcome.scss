@@ -11,13 +11,14 @@ $gray: #8b8e92; // Средне-серый цвет
 	display: flex; 
     justify-content: flex-end; 
     align-items: center;
-	background: 
-        linear-gradient(270deg, rgba(0, 0, 0, 0.60) 34.64%, rgba(0, 0, 0, 0.00) 108.46%),
-        url('../src/shutterstock_1473892670.jpg');
+	  background: linear-gradient(270deg, rgba(0, 0, 0, 0.60) 34.64%, rgba(0, 0, 0, 0.00) 108.46%), 
+    url('../src/shutterstock_1473892670.jpg');
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-    
+    .mobile-background-image {
+      display: none;
+    }
 	h1 {
 		color: #FBF8F5;
 	}
@@ -204,28 +205,79 @@ $gray: #8b8e92; // Средне-серый цвет
 }
 
 @media (max-width: 576px) {
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
 
+  .mobile-background-image {
+    display: flex !important;
+  }
+
+      .welcome .container {
+        max-width: none;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+      }
+      .welcome h1 {
+        width: 305px;
+        color: $black;
+        margin-top: 32px;
+      }
+      .welcome .b4 {
+        font-size: 18px;
+        width: 268px;
+        margin-top: 18px;
+        font-style: normal;
+        color: $black;
+      }
+      .welcome .button-box {
+        margin-top: 28px;
+        gap: 10px;
+      }
 }
 
 @media (max-width: 390px) {
-    // .welcome {
-    //     height: 701px;
-    //     max-width: 1921px;
-    //   }
-    //   .welcome .container {
-    //     max-width: 570px;
-    //     margin-right: 10%;
-    //     margin-bottom: 30px;
-    //   }
-    //   .welcome h1 {
-    //     width: 570px;
-    //   }
-    //   .welcome .b4 {
-    //     width: 431px;
-    //     margin-top: 32px;
-    //   }
-    //   .welcome .button-box {
-    //     margin-top: 66px;
-    //     gap: 26px;
-    //   }
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .mobile-background-image {
+    display: flex !important;
+  }
+
+      .welcome .container {
+        max-width: none;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+      }
+      .welcome h1 {
+        width: 305px;
+        color: $black;
+        margin-top: 32px;
+      }
+      .welcome .b4 {
+        font-size: 18px;
+        width: 268px;
+        margin-top: 18px;
+        font-style: normal;
+        color: $black;
+      }
+      .welcome .button-box {
+        margin-top: 28px;
+        gap: 10px;
+      }
 }

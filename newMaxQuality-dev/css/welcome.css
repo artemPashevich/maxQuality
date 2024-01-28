@@ -7,6 +7,9 @@
   background-position: center;
   margin: 0 auto;
 }
+.welcome .mobile-background-image {
+  display: none;
+}
 .welcome h1 {
   color: #FBF8F5;
 }
@@ -176,6 +179,78 @@
   }
   .welcome .button-box {
     margin-top: 30px;
+    gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
+  .mobile-background-image {
+    display: flex !important;
+  }
+  .welcome .container {
+    max-width: none;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  .welcome h1 {
+    width: 305px;
+    color: #121112;
+    margin-top: 32px;
+  }
+  .welcome .b4 {
+    font-size: 18px;
+    width: 268px;
+    margin-top: 18px;
+    font-style: normal;
+    color: #121112;
+  }
+  .welcome .button-box {
+    margin-top: 28px;
+    gap: 10px;
+  }
+}
+@media (max-width: 390px) {
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
+  .mobile-background-image {
+    display: flex !important;
+  }
+  .welcome .container {
+    max-width: none;
+    height: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+  .welcome h1 {
+    width: 305px;
+    color: #121112;
+    margin-top: 32px;
+  }
+  .welcome .b4 {
+    font-size: 18px;
+    width: 268px;
+    margin-top: 18px;
+    font-style: normal;
+    color: #121112;
+  }
+  .welcome .button-box {
+    margin-top: 28px;
     gap: 10px;
   }
 }/*# sourceMappingURL=welcome.css.map */
