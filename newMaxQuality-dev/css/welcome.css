@@ -61,7 +61,7 @@
     margin-bottom: 30px;
   }
   .welcome h1 {
-    width: 570px;
+    width: 572px;
   }
   .welcome .b4 {
     width: 431px;
@@ -127,7 +127,7 @@
     margin-bottom: 45px;
   }
   .welcome h1 {
-    width: 386px;
+    width: 432px;
   }
   .welcome .b4 {
     width: 317px;
@@ -166,15 +166,15 @@
     max-width: 768px;
   }
   .welcome .container {
-    max-width: 320px;
+    max-width: 382px;
     margin-right: 10%;
     margin-bottom: 40px;
   }
   .welcome h1 {
-    width: 320px;
+    width: 390px;
   }
   .welcome .b4 {
-    width: 235px;
+    width: 250px;
     margin-top: 22px;
   }
   .welcome .button-box {
@@ -191,6 +191,10 @@
     background: none;
     flex-direction: column;
     max-width: none;
+  }
+  .down-container {
+    max-width: 400px;
+    margin: 0 auto;
   }
   .mobile-background-image {
     display: flex !important;
@@ -227,6 +231,10 @@
     background: none;
     flex-direction: column;
     max-width: none;
+  }
+  .down-container {
+    width: auto;
+    margin: auto;
   }
   .mobile-background-image {
     display: flex !important;

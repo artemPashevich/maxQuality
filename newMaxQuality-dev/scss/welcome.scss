@@ -77,7 +77,7 @@ $gray: #8b8e92; // Средне-серый цвет
         margin-bottom: 30px;
       }
       .welcome h1 {
-        width: 570px;
+        width: 572px;
       }
       .welcome .b4 {
         width: 431px;
@@ -146,7 +146,7 @@ $gray: #8b8e92; // Средне-серый цвет
   margin-bottom: 45px;
 }
 .welcome h1 {
-    width: 386px;
+    width: 432px;
 }
 .welcome .b4 {
     width: 317px; 
@@ -187,15 +187,15 @@ $gray: #8b8e92; // Средне-серый цвет
         max-width: 768px;
       }
       .welcome .container {
-        max-width: 320px;
+        max-width: 382px;
         margin-right: 10%;
         margin-bottom: 40px;
       }
       .welcome h1 {
-        width: 320px;
+        width: 390px;
       }
       .welcome .b4 {
-        width: 235px;
+        width: 250px;
         margin-top: 22px;
       }
       .welcome .button-box {
@@ -213,6 +213,11 @@ $gray: #8b8e92; // Средне-серый цвет
     background: none;
     flex-direction: column;
     max-width: none;
+  }
+
+  .down-container {
+    max-width: 400px;
+    margin: 0 auto;
   }
 
   .mobile-background-image {
@@ -254,6 +259,10 @@ $gray: #8b8e92; // Средне-серый цвет
     max-width: none;
   }
 
+  .down-container {
+    width: auto;
+    margin: auto;
+  }
   .mobile-background-image {
     display: flex !important;
   }
