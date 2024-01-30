@@ -430,7 +430,7 @@ body {
 }
 @media (max-width: 768px) {
   .container {
-    max-width: 490px;
+    max-width: 550px;
   }
 }
 @media (max-width: 576px) {

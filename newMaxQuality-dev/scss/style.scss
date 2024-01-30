@@ -24,7 +24,15 @@ header {
 	}
 
 	.logo {
-		color: white;
+		font-size: 12px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        color: #FFF;
+        font-family: Poppins;
+        font-weight: 700;
+        letter-spacing: 1.44px;
 	}
 
 	ul { 
@@ -245,9 +253,6 @@ header {
 		max-width: 1921px;
 		margin: 0 auto;
     }
-    header .logo {
-        font-size: 24px;
-    }
     header ul {
         gap: 98px;
     }
@@ -261,9 +266,6 @@ header {
     header {
         height: 80px;
     }
-    header .logo {
-        font-size: 24px;
-    }
     header ul {
         gap: 98px;
     }
@@ -275,9 +277,6 @@ header {
 @media (max-width: 1600px) {
     header {
         height: 70px;
-    }
-    header .logo {
-        font-size: 24px; 
     }
     header ul {
         gap: 86px; 
@@ -291,9 +290,6 @@ header {
     header {
         height: 60px;
     }
-    header .logo {
-        font-size: 24px;
-    }
     header ul {
         gap: 75px;
     }
@@ -305,9 +301,6 @@ header {
 @media (max-width: 1200px) {
     header {
         height: 70px;
-    }
-    header .logo {
-        font-size: 20px;
     }
     header ul {
         gap: 60px;
@@ -321,9 +314,6 @@ header {
     header {
         height: 65px;
     }
-    header .logo {
-        font-size: 18px;
-    }
     header ul {
         gap: 50px;
     }
@@ -336,9 +326,6 @@ header {
     header {
         height: 56px;
     }
-    header .logo {
-        font-size: 16px;
-    }
     header ul {
         gap: 44px;
     }
@@ -350,9 +337,6 @@ header {
 @media (max-width: 576px) {
     header {
         height: 60px;
-    }
-    header .logo {
-        font-size: 16px;
     }
     header nav {
         display: none;
@@ -371,9 +355,6 @@ header {
 @media (max-width: 390px) {
     header {
         height: 60px;
-    }
-    header .logo {
-        font-size: 16px;
     }
     header nav {
         display: none; 
