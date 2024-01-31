@@ -217,25 +217,34 @@ h2 {
     width: 200px;
   }
   .services .services-list {
-    gap: 107px;
+    gap: 32px;
+  }
+  .services .works-name {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    margin-left: 40px;
   }
   .services .service-box {
-    width: 190px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
   }
   .services .service-number {
     font-size: 48px;
     font-weight: 700;
     line-height: 80px;
-    margin-bottom: 27px;
+    margin-bottom: 0px;
   }
   .services .service-number::after {
-    width: 190px;
-    height: 6px;
-    bottom: -10px;
+    height: 107px;
+    width: 6px;
+    right: -23px;
+    top: 0;
   }
   .services h4 {
-    padding-bottom: 23px;
-    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-top: 5px;
   }
 }
 @media (max-width: 390px) {
@@ -244,24 +253,33 @@ h2 {
     width: 200px;
   }
   .services .services-list {
-    gap: 107px;
+    gap: 32px;
+  }
+  .services .works-name {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin-left: 40px;
   }
   .services .service-box {
-    width: 190px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
   }
   .services .service-number {
     font-size: 48px;
     font-weight: 700;
     line-height: 80px;
-    margin-bottom: 27px;
+    margin-bottom: 0px;
   }
   .services .service-number::after {
-    width: 190px;
-    height: 6px;
-    bottom: -10px;
+    height: 107px;
+    width: 6px;
+    right: -23px;
+    top: 0;
   }
   .services h4 {
-    padding-bottom: 23px;
-    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-top: 5px;
   }
 }/*# sourceMappingURL=services.css.map */
