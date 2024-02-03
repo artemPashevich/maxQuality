@@ -1,0 +1,66 @@
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+
+
+footer {
+	background-color: #E5E5E5;
+	height: 154px;
+
+  .container {
+
+	height: 100%;
+
+	.pre-container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+	}
+		.branding {
+
+			.max-quality {
+				color: $black;
+				font-family: Poppins;
+				font-size: 16px;
+				letter-spacing: -0.505px;
+				font-weight: 700;
+				margin-bottom: 12px;
+			}
+
+			.tagline {
+				color: #7B7780;
+				font-family: Helvetica;
+				font-size: 14px;
+				letter-spacing: -0.933px;
+				width: 148px;
+				line-height: 18px;
+			}
+		}
+
+		.social-icons {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			gap: 20px;
+		}
+
+		.contact {
+			display: flex;
+    		flex-direction: row;
+    		align-items: center;
+    		gap: 44px;
+
+			.get-in-touch {
+				color: $black;
+				font-family: Helvetica;
+				font-size: 40px;
+				letter-spacing: -0.933px;
+			}
+		}
+  }
+	
+}
