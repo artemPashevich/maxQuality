@@ -185,6 +185,10 @@ footer .container .contact .get-in-touch {
   }
   footer .container .pre-container {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 248px;
+    margin: 0 auto;
   }
   footer .pre-container .branding .max-quality {
     font-size: 16px;

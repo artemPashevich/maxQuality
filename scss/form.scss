@@ -4,3 +4,42 @@ $white: #eeeff0; // Светло-серый цвет
 $gray: #8b8e92; // Средне-серый цвет
 
 
+.contacts {
+
+    .container {
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: space-between;
+        height: 575px;
+        align-items: center;
+    }
+
+    .lets-talk {
+        width: 325px;
+        margin-bottom: 18px;
+
+        // h2 {
+        //     width: 330px;
+        // }
+
+        .b4 {
+
+        }
+
+    }
+
+    .text-inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 630px;
+        
+
+        .vertical-input {
+            display: flex;
+            gap: 20px;
+        }
+
+    }
+
+}

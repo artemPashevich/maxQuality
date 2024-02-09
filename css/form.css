@@ -1,1 +1,21 @@
-/*# sourceMappingURL=form.css.map */
+.contacts .container {
+  background-color: #E5E5E5;
+  display: flex;
+  justify-content: space-between;
+  height: 575px;
+  align-items: center;
+}
+.contacts .lets-talk {
+  width: 325px;
+  margin-bottom: 18px;
+}
+.contacts .text-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 630px;
+}
+.contacts .text-inputs .vertical-input {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=form.css.map */
