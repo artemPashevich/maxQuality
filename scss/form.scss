@@ -33,8 +33,95 @@ $gray: #8b8e92; // Средне-серый цвет
         }
 
     }
-
 }
+
+// custom checkbox
+
+.custom-checkbox input[type="checkbox"] {
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+  }
+  
+
+  .custom-checkbox .checkmark {
+    display: inline-block;
+    background: none;
+    position: relative;
+    border-radius: 2px;
+    border: 1px solid #7B7780;
+  }
+  
+
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 7px;
+    height: 11px;
+    border: solid $orange;
+    border-width: 0px 2px 2px 0px;
+    transform: rotate(45deg);
+    background: transparent;
+  }
+
+
+  .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+  border: 1px solid $orange; 
+}
+
+  .custom-checkbox:hover input[type="checkbox"] + .checkmark {
+    border: 1px solid $orange;
+  }
+  
+  .dropdown-menu label:hover {
+    color: $orange;
+  }
+  
+  .custom-checkbox.checked {
+    color: $orange;
+  }
+
+.dropdown {
+    position: relative;
+}
+  
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-toggle.active {
+    border: 1px solid $orange; 
+    border-bottom: none;
+    border-radius: 4px 4px 0px 0px;
+}
+  
+.dropdown-menu {
+    background: #E5E5E5;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0 0 4px 4px;
+    border: 1px solid $orange;
+    border-top: none;
+    padding-bottom: 10px;
+}
+
+  .dropdown-menu label {
+    background: #E5E5E5;
+    display: flex;
+    cursor: pointer;
+    color: #7B7780;
+    font-family: Helvetica;
+    font-weight: 400;
+    border-radius: 4px
+}
+  
+
+
+  //custom checkbox end
+
 
 
 @media (min-width: 1921px) {
@@ -69,7 +156,26 @@ $gray: #8b8e92; // Средне-серый цвет
     .text-inputs .submit-button {
         width: 177px;
     }
-  }
+
+
+    .custom-checkbox .checkmark {
+        width: 20px;
+        height: 20px;
+    }
+         
+    .dropdown-menu {
+        width: 840px;
+        
+    }
+      
+    .dropdown-menu label {
+        padding: 12px 26px;
+        gap: 12px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.7px;
+    }
+}
 
   @media (max-width: 1920px) {
     .contacts .container {
@@ -103,6 +209,23 @@ $gray: #8b8e92; // Средне-серый цвет
     .text-inputs .submit-button {
         width: 177px;
     }
+
+    .custom-checkbox .checkmark {
+        width: 20px;
+        height: 20px;
+    }
+         
+    .dropdown-menu {
+        width: 840px;
+    }
+      
+    .dropdown-menu label {
+        padding: 12px 26px;
+        gap: 12px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.7px;
+    }
   }
 
   @media (max-width: 1600px) {
@@ -131,6 +254,24 @@ $gray: #8b8e92; // Средне-серый цвет
 
     .text-inputs .submit-button {
         width: 155px;
+    }
+
+    .custom-checkbox .checkmark {
+        width: 20px;
+        height: 20px;
+    }
+         
+    .dropdown-menu {
+        width: 757px;
+        
+    }
+      
+    .dropdown-menu label {
+        padding: 12px 26px;
+        gap: 12px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.7px;
     }
   }
 
@@ -161,6 +302,30 @@ $gray: #8b8e92; // Средне-серый цвет
 
     .text-inputs .submit-button {
         width: 134px;
+    }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+
+    .custom-checkbox input[type=checkbox]:checked + .checkmark::after {
+        left: 4px;
+        top: 1px;
+        width: 6px;
+        height: 10px;
+    }
+         
+    .dropdown-menu {
+        width: 630px;
+    }
+      
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
     }
   }
 
@@ -195,6 +360,23 @@ $gray: #8b8e92; // Средне-серый цвет
     .text-inputs .submit-button {
         width: 134px;
     }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+         
+    .dropdown-menu {
+        width: 450px;
+    }
+      
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
+    }
   }
 
   @media (max-width: 992px) {
@@ -228,6 +410,23 @@ $gray: #8b8e92; // Средне-серый цвет
 
     .text-inputs .submit-button {
         width: 193px;
+    }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+         
+    .dropdown-menu {
+        width: 384px;
+    }
+      
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
     }
   }
 
@@ -270,6 +469,23 @@ $gray: #8b8e92; // Средне-серый цвет
         width: auto;
         margin-top: 19px;
     }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+         
+    .dropdown-menu {
+        width: 480px;
+    }
+
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
+    }
   }
 
   @media (max-width: 576px) {
@@ -307,6 +523,23 @@ $gray: #8b8e92; // Средне-серый цвет
         width: auto;
         margin-top: 19px;
     }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+         
+    .dropdown-menu {
+        width: 100%;
+    }
+      
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
+    }
   }
 
   @media (max-width: 390px) {
@@ -342,5 +575,22 @@ $gray: #8b8e92; // Средне-серый цвет
     .text-inputs .submit-button {
         width: auto;
         margin-top: 28px;
+    }
+
+    .custom-checkbox .checkmark {
+        width: 16px;
+        height: 16px;
+    }
+         
+    .dropdown-menu {
+        width: 100%;
+    }
+      
+    .dropdown-menu label {
+        padding: 5px 20px;
+        gap: 16px;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.7px;
     }
   }

@@ -58,3 +58,52 @@
 //   });
   
 // video end 
+
+
+function toggleDropdown() {
+    var dropdownMenu = document.getElementById("dropdown-menu");
+    var dropdownToggle = document.querySelector('.dropdown-toggle');
+  
+    if (dropdownMenu.style.display === "block") {
+      dropdownMenu.style.display = "none";
+      dropdownToggle.classList.remove('active');
+    } else {
+      dropdownMenu.style.display = "block";
+      dropdownToggle.classList.add('active');
+    }
+  }
+  
+  document.querySelectorAll('.custom-checkbox input[type="checkbox"]').forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      if (checkbox.checked) {
+        checkbox.parentElement.classList.add('checked');
+      } else {
+        checkbox.parentElement.classList.remove('checked');
+      }
+    });
+  });
+  
+  var checkboxes = document.querySelectorAll('.dropdown-menu input[type="checkbox"]');
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      updateDropdownLabel();
+    });
+  });
+  
+  function updateDropdownLabel() {
+    var selected = [];
+    checkboxes.forEach(function(checkbox) {
+      if (checkbox.checked) {
+        selected.push(checkbox.value);
+      }
+    });
+  
+    var dropdownToggle = document.querySelector('.dropdown-toggle');
+    if (selected.length > 0) {
+      dropdownToggle.value = selected.join(', ');
+    } else {
+      dropdownToggle.value = 'Type of construction works';
+    }
+  }
+  
+  

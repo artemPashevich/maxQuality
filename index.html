@@ -184,8 +184,36 @@
                         <input type="tel" placeholder="Phone">
                     </div>
 
-                    <input type="text" placeholder="">
-
+                    <div class="dropdown">
+                        <input type="text" class="dropdown-toggle" onclick="toggleDropdown()" readonly value="Type of construction works">
+                        <div class="dropdown-menu" id="dropdown-menu">
+                            <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Finishing works">
+                                <span class="checkmark"></span> Finishing works 
+                              </label>
+                              <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Tiling works">
+                                <span class="checkmark"></span> Tiling works 
+                              </label>
+                              <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Plastering work">
+                                <span class="checkmark"></span> Plastering work 
+                              </label>
+                              <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Plumbing">
+                                <span class="checkmark"></span> Plumbing 
+                              </label>
+                              <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Electrical works">
+                                <span class="checkmark"></span> Electrical works 
+                              </label>
+                              <label class="custom-checkbox">
+                                <input type="checkbox" type="checkbox" value="Etc.">
+                                <span class="checkmark"></span> Etc. 
+                              </label>
+                        </div>
+                      </div>
+                      
                     <button class="submit-button" type="submit">Submit</button>
                </div>
 

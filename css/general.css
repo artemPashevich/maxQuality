@@ -534,4 +534,8 @@ input {
   color: #7B7780;
   font-family: Helvetica;
   width: -webkit-fill-available;
+}
+
+input:focus {
+  border-color: #f44c17;
 }/*# sourceMappingURL=general.css.map */
