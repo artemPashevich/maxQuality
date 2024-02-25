@@ -12,7 +12,6 @@ header .menu-icon {
   display: none;
 }
 header .logo {
-  font-size: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -45,6 +44,9 @@ header ul li:hover {
     max-width: 1921px;
     margin: 0 auto;
   }
+  header .logo {
+    font-size: 14px;
+  }
   header ul {
     gap: 98px;
   }
@@ -55,6 +57,9 @@ header ul li:hover {
 @media (max-width: 1920px) {
   header {
     height: 80px;
+  }
+  header .logo {
+    font-size: 14px;
   }
   header ul {
     gap: 98px;
@@ -67,6 +72,9 @@ header ul li:hover {
   header {
     height: 70px;
   }
+  header .logo {
+    font-size: 14px;
+  }
   header ul {
     gap: 86px;
   }
@@ -77,6 +85,9 @@ header ul li:hover {
 @media (max-width: 1440px) {
   header {
     height: 60px;
+  }
+  header .logo {
+    font-size: 12px;
   }
   header ul {
     gap: 75px;
@@ -121,6 +132,9 @@ header ul li:hover {
 @media (max-width: 576px) {
   header {
     height: 60px;
+  }
+  header .logo {
+    font-size: 11px;
   }
   header nav {
     display: none;
