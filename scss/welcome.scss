@@ -1,0 +1,292 @@
+
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+
+// welcome section start 
+
+.welcome {
+	display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+	  background: linear-gradient(270deg, rgba(0, 0, 0, 0.60) 34.64%, rgba(0, 0, 0, 0.00) 108.46%), 
+    url('../src/shutterstock_1473892670.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    .mobile-background-image {
+      display: none;
+    }
+	h1 {
+		color: #FBF8F5;
+	}
+	.b4 {
+		color: #FBF8F5;
+	}
+	.button-box {
+		display: flex;
+
+		.black-button {
+			background-color: $black;
+			color: $orange;
+
+			&:active {
+				color: $black;
+				background-color: $orange;
+			}
+		}
+	}
+}
+
+
+
+@media (min-width: 1921px) {
+    .welcome {
+        height: 701px;
+        max-width: 1921px;
+      }
+      .welcome .container {
+        max-width: 578px;
+        margin-right: 10%;
+        margin-bottom: 30px;
+      }
+      .welcome h1 {
+        width: 578px;
+      }
+      .welcome .b4 {
+        width: 431px;
+        margin-top: 32px;
+      }
+      .welcome .button-box {
+        margin-top: 66px;
+        gap: 26px;
+      }
+}
+
+
+@media (max-width: 1920px)  {
+    .welcome {
+        height: 701px;
+        max-width: 1921px;
+      }
+      .welcome .container {
+        max-width: 570px;
+        margin-right: 10%;
+        margin-bottom: 30px;
+      }
+      .welcome h1 {
+        width: 572px;
+      }
+      .welcome .b4 {
+        width: 431px;
+        margin-top: 32px;
+      }
+      .welcome .button-box {
+        margin-top: 66px;
+        gap: 26px;
+      }
+}
+
+@media (max-width: 1600px) {
+    .welcome {
+      height: 650px; 
+      max-width: 1600px;
+  }
+    .welcome .container {
+      max-width: 550px; 
+      margin-right: 10%;
+      margin-bottom: 30px;
+  }
+  .welcome h1 {
+      width: 550px; 
+  }
+  .welcome .b4 {
+      width: 400px; 
+      margin-top: 28px; 
+  }
+  .welcome .button-box {
+      margin-top: 50px; 
+      gap: 24px; 
+  }
+}
+
+@media (max-width: 1440px) {
+    .welcome {
+        height: 582px;
+        max-width: 1440px;
+      }
+      .welcome .container {
+        max-width: 433px;
+        margin-right: 10%;
+        margin-bottom: 30px;
+      }
+      .welcome h1 {
+        width: 433px;
+      }
+      .welcome .b4 {
+        width: 338px;
+        margin-top: 22px;
+      }
+      .welcome .button-box {
+        margin-top: 44px;
+        gap: 20px;
+      }
+}
+
+@media (max-width: 1200px) {
+  .welcome {
+    height: 600px; 
+    max-width: 1200px;
+}
+.welcome .container {
+  max-width: 386px;
+  margin-right: 10%;
+  margin-bottom: 45px;
+}
+.welcome h1 {
+    width: 432px;
+}
+.welcome .b4 {
+    width: 317px; 
+    margin-top: 20px; 
+}
+.welcome .button-box {
+    margin-top: 40px; 
+    gap: 18px; 
+}
+}
+
+@media (max-width: 992px) {
+  .welcome {
+    height: 500px; 
+    max-width: 992px; 
+}
+.welcome .container {
+  max-width: 350px;
+  margin-right: 10%;
+  margin-bottom: 68px;
+}
+.welcome h1 {
+    width: 390px; 
+}
+.welcome .b4 {
+    width: 280px; 
+    margin-top: 18px; 
+}
+.welcome .button-box {
+    margin-top: 30px; 
+    gap: 15px; 
+}
+}
+
+@media (max-width: 768px) {
+    .welcome {
+        height: 422px;
+        max-width: 768px;
+      }
+      .welcome .container {
+        max-width: 382px;
+        margin-right: 10%;
+        margin-bottom: 40px;
+      }
+      .welcome h1 {
+        width: 390px;
+      }
+      .welcome .b4 {
+        width: 250px;
+        margin-top: 22px;
+      }
+      .welcome .button-box {
+        margin-top: 30px;
+        gap: 10px;
+      }
+}
+
+@media (max-width: 576px) {
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .down-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .mobile-background-image {
+    display: flex !important;
+  }
+
+      .welcome .container {
+        max-width: none;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+      }
+      .welcome h1 {
+        width: 305px;
+        color: $black;
+        margin-top: 32px;
+      }
+      .welcome .b4 {
+        font-size: 18px;
+        width: 268px;
+        margin-top: 18px;
+        font-style: normal;
+        color: $black;
+      }
+      .welcome .button-box {
+        margin-top: 28px;
+        gap: 10px;
+      }
+}
+
+@media (max-width: 390px) {
+  .welcome {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    height: auto;
+    display: flex;
+    background: none;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .down-container {
+    width: auto;
+    margin: auto;
+  }
+  .mobile-background-image {
+    display: flex !important;
+  }
+
+      .welcome .container {
+        max-width: none;
+        height: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+      }
+      .welcome h1 {
+        width: 305px;
+        color: $black;
+        margin-top: 32px;
+      }
+      .welcome .b4 {
+        font-size: 18px;
+        width: 268px;
+        margin-top: 18px;
+        font-style: normal;
+        color: $black;
+      }
+      .welcome .button-box {
+        margin-top: 28px;
+        gap: 10px;
+      }
+}
