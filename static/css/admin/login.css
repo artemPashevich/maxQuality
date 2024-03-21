@@ -1,0 +1,26 @@
+.root {
+  background: #EEEFF0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  width: 820px;
+  height: 409px;
+  border-radius: 4px;
+  background: #FCFCFC;
+}
+.login-box .logo-container {
+  display: flex;
+  color: #8B8E92;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.44px;
+}
+.login-box .logo-container .logo {
+  width: 82px;
+  height: 60px;
+}/*# sourceMappingURL=login.css.map */
