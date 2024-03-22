@@ -11,6 +11,9 @@
   height: 409px;
   border-radius: 4px;
   background: #FCFCFC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .login-box .logo-container {
   display: flex;
@@ -19,8 +22,52 @@
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1.44px;
+  flex-direction: column;
+  padding-top: 32px;
 }
 .login-box .logo-container .logo {
   width: 82px;
   height: 60px;
+  margin: 0 auto;
+}
+.login-box .input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 44px;
+}
+.login-box .input-box input {
+  color: #8B8E92;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+  background: none;
+  width: 330px;
+  height: 40px;
+  border: 1px solid #D6D7D8;
+  padding: 8px 0px 8px 18px;
+}
+.login-box .input-box .password-container {
+  position: relative;
+}
+.login-box .input-box .password-container input {
+  color: #8B8E92;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.login-box .input-box .password-container .eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.login-box .input-box button {
+  margin-top: 22px;
+  width: 330px;
+  height: 40px;
+  padding: 8px 33px;
 }/*# sourceMappingURL=login.css.map */
