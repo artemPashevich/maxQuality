@@ -1,0 +1,36 @@
+$orange: #f44c17; // Ярко-оранжевый цвет
+$black: #121112; // Темно-серый, почти черный цвет
+$white: #eeeff0; // Светло-серый цвет
+$gray: #8b8e92; // Средне-серый цвет
+
+body {
+    background-color: #EEEFF0;
+}
+
+
+.tabs {
+    .container {
+        height: 58px;
+        border-radius: 4px;
+        background: #FCFCFC;
+        margin-top: 44px;
+        padding: 0px;
+    
+        .tablinks {
+            color: #121112;
+            font-family: Helvetica;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 24px; 
+            letter-spacing: -0.7px;
+            background: none;
+            width: 220px;
+            padding: 18px 38px 10px 38px;
+        }
+    }
+}
+
+.tablinks.active {
+    border-bottom: 6px solid $orange; 
+  }
+
