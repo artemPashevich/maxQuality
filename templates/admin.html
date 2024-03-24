@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../static/css/general.css" />
     <link rel="stylesheet" href="../static/css/header.css" />
     <link rel="stylesheet" href="../static/css/admin/admin.css" />
+    <link rel="stylesheet" href="../static/css/admin/add-clients.css" />
+    <link rel="stylesheet" href="../static/css/form.css" />
     <title>Document</title>
 </head>
 
@@ -29,25 +31,82 @@
             <button class="tablinks" onclick="openTab(event, 'clients')">Clients</button>
             <button class="tablinks" onclick="openTab(event, 'gallery')">Gallery</button>
         </div>
-
+<!-- 
         <div id="clients" class="tabcontent">
-            <!-- Содержимое для таба Clients -->
             <h3>Clients</h3>
             <p>Some content for Clients.</p>
           </div>
           
           <div id="gallery" class="tabcontent">
-            <!-- Содержимое для таба Gallery -->
             <h3>Gallery</h3>
             <p>Some content for Gallery.</p>
-          </div>
+          </div> -->
 
     </section>
 
 
       
-    <section>
+    <section class="add-clients">
+        <div class="container">
 
+            <h4>Add client</h4>
+
+        <div class="form"> 
+            <div class="form-group">
+                <div class="b5" for="name">Name</div>
+                <input class="input-name" type="text" id="name" placeholder="Name">
+              </div>
+              
+              <div class="form-group">
+                <div class="b5" for="phone">Phone</div>
+                <input class="input-phone" type="tel" id="phone" placeholder="Phone">
+              </div>
+              
+              <div class="form-group">
+                <div class="b5" for="address">Address</div>
+                <input class="input-address" type="text" id="address" placeholder="Address">
+              </div>
+
+              <div class="form-group">
+                <div class="b5" for="type of construction works">Type of construction works</div>
+                <div class="dropdown">
+                    <input type="text" id="type of construction works" class="dropdown-toggle" onclick="toggleDropdown()" readonly value="Type of construction works">
+                    <div class="dropdown-menu" id="dropdown-menu">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Finishing works">
+                            <span class="checkmark"></span> Finishing works 
+                          </label>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Tiling works">
+                            <span class="checkmark"></span> Tiling works 
+                          </label>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Plastering work">
+                            <span class="checkmark"></span> Plastering work 
+                          </label>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Plumbing">
+                            <span class="checkmark"></span> Plumbing 
+                          </label>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Electrical works">
+                            <span class="checkmark"></span> Electrical works 
+                          </label>
+                          <label class="custom-checkbox">
+                            <input type="checkbox" type="checkbox" value="Etc.">
+                            <span class="checkmark"></span> Etc. 
+                          </label>
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="form-group">
+                <button type="submit">Add</button>
+              </div>
+        </div>
+            
+
+        </div>
     </section>
 
     <section>

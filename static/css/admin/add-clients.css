@@ -1,0 +1,43 @@
+.add-clients .container {
+  height: 164px;
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  margin-top: 14px;
+  padding: 22px 32px;
+}
+.add-clients .container .form {
+  display: flex;
+  gap: 14px;
+  margin-top: 20px;
+}
+.add-clients .container .form-group .b5 {
+  margin-bottom: 8px;
+  color: #7B7780;
+}
+.add-clients .container .form-group input {
+  color: #121112;
+  font-size: 15px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #D6D7D8;
+  background-color: unset;
+  padding: 8px 18px;
+}
+.add-clients .container .form-group button {
+  width: 72px;
+  height: 40px;
+  padding: 8px 22px;
+  margin-top: 30px;
+}
+.add-clients .container .form-group .input-name {
+  width: 147px;
+}
+.add-clients .container .form-group .input-phone {
+  width: 185px;
+}
+.add-clients .container .form-group .input-address {
+  width: 376px;
+}
+.add-clients .container .form-group .dropdown-toggle {
+  width: 279px;
+}/*# sourceMappingURL=add-clients.css.map */
